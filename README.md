@@ -1,4 +1,5 @@
-# FastMONAI
+# FastMONAI Course Project - Group 4
+Sander Braastad, Tarald Skaar, Matias Holmemo Mardal
 
 ### Data - The Medical Decathlon
 The Medical Decathlon is a benchmark dataset for evaluating AI algorithms for medical image segmentation. The dataset includes 10 different medical imaging tasks, each with its own training and testing sets. The tasks include brain tumor segmentation, liver segmentation, and heart segmentation, among others.
@@ -67,3 +68,9 @@ One potential direction for future work is to implement the deep learning models
 By providing users with an intuitive and easy-to-use interface for running these deep learning models, the Gradio app could help to facilitate the use of AI-powered medical imaging analysis by clinicians and researchers who may not have extensive experience with deep learning. This could ultimately help to improve the accuracy and speed of medical diagnoses, potentially leading to better patient outcomes.
 
 To implement this further work, additional development would be required to integrate the deep learning models into the Gradio app and to ensure that the app is user-friendly and accessible to a wide range of users. Additionally, further testing and validation would be needed to ensure that the app is accurate and reliable for a variety of different MRI scans and clinical scenarios.
+
+@article{kaliyugarasan2022fastMONAI,
+  title={fastMONAI: a low-code deep learning library for medical image analysis},
+  author={Kaliyugarasan, Satheshkumar and Lundervold, Alexander Selvikv{\aa}g},
+  year={2022}
+}
