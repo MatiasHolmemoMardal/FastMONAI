@@ -88,9 +88,10 @@ This model was made with the same structure as the heart-model, but did not perf
 
 ### Spleen (Decathlon) 
 
-<a target="_blank" href="https://colab.research.google.com/github/MatiasHolmemoMardal/FastMONAI/blob/main/notebooks/Spleen_semantic.ipynb">
+<a target="_blank" href="https://colab.research.google.com/github/MatiasHolmemoMardal/FastMONAI/blob/main/notebooks/Spleen-semantic.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
+
 In this notebook we had the same problem with the binary dice score being "nan". we checked that values in the label files was [0. 1.], checked that the model output values was between 0 and 1, verified the data to ensure  that the input data and ground truth masks do not contain any NaN values or other inconsistencies, tested the loss function with random tensors to ensure that the loss function itself is not causing NaN values and tried to monitor the model weights.
 
 ## What we could have done differently
