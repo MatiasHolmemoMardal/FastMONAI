@@ -104,6 +104,8 @@ Speaking of the Gradio app, one significant mistake we made was starting its dev
 
 Overall, if we had established stricter schedules, started with the Medical Decathlon dataset from the outset, consulted our teacher more frequently for assistance, and begun development of the Gradio app earlier in the project, we could have achieved more successful outcomes. This serves as a valuable lesson for future projects, emphasizing the importance of careful planning and execution to ensure the best possible results.
 
+This was GPT-4's answer after too many attempts to fix the problem
+
 ![Screenshot 2023-04-21 201228](https://user-images.githubusercontent.com/98272397/233710509-c4ab738a-c92d-4937-a930-80e18c79ed83.jpg)
 
 
