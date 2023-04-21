@@ -9,12 +9,32 @@ FastMONAI is a deep learning library that provides a high-level interface for de
 Overall, working on a deep learning project using fastMONAI requires a strong understanding of deep learning concepts and techniques, as well as expertise in data preprocessing and analysis. It is a challenging but rewarding area of research that has the potential to make a real impact on the field of medical imaging. 
 
 
-## Data - The Medical Decathlon
+## Data
+
+### MedMNIST
+MedMNIST had several datasets containing 28x28x28 images. Advantages with this dataset were equally formatted images and big datasets. The images are small which makes them easier to process, but that also means they contain less information. MedMINST’s dataset’s contained several different types of problems to solve. The group started experimenting with this dataset, but had huge difficulties converting the images to NIfTI and using FastMONAI on those images. None of the models from this dataset did well
+
+### The Medical Decathlon
 The Medical Decathlon is a benchmark dataset for evaluating AI algorithms for medical image segmentation. The dataset includes 10 different medical imaging tasks, each with its own training and testing sets. The tasks include brain tumor segmentation, liver segmentation, and heart segmentation, among others.
 
 The dataset contains 60 patients, with 10 patients per task. Each patient has multiple MRI sequences, and each sequence has a corresponding ground-truth segmentation. The images are provided in NIfTI format, and the ground-truth segmentations are provided as binary masks in NIfTI format as well.
 
 The dataset is diverse and challenging, with variations in image quality, resolution, and pathology across different patients and imaging tasks. This makes it an ideal benchmark dataset for evaluating the performance of AI algorithms for medical image segmentation.
+
+Decathlon had several datasets great for learning. All the images are in a compressed NIfTI format (nii.gz) making it easy to use FastMONAI to explore the dataset’s. Decathlon only has datasets made for semantic segmentation, but with different challenges within each dataset. The group found it easier to work with.
+
+Consists of 10 datasets:
+1. BraTS: A dataset of brain MRI scans for glioma tumor segmentation.
+2. CANDI: A dataset of cardiac MR images for left ventricle segmentation.
+3. CDMRI: A dataset of cardiac MRI scans for cardiac function quantification.
+4. CREMIS: A dataset of chest CT scans for lung nodule detection.
+5. CQ500: A dataset of chest CT scans for lung nodule classification.
+6. ISIC: A dataset of skin lesion images for melanoma classification.
+7. KiTS: A dataset of kidney tumor CT scans for tumor segmentation.
+8. LiTS: A dataset of liver CT scans for liver and lesion segmentation.
+9. PANDA: A dataset of prostate biopsy images for cancer diagnosis.
+10. RibFrac: A dataset of chest CT scans for rib fracture detection.
+
 
 ## What is FastMONAI
 
