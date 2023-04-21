@@ -9,6 +9,7 @@ FastMONAI is a deep learning library that provides a high-level interface for de
 Overall, working on a deep learning project using fastMONAI requires a strong understanding of deep learning concepts and techniques, as well as expertise in data preprocessing and analysis. It is a challenging but rewarding area of research that has the potential to make a real impact on the field of medical imaging. 
 
 
+
 ## Data
 
 ### MedMNIST
