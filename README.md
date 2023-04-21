@@ -55,6 +55,10 @@ The primary aim of this system is to improve the speed and accuracy of medical d
 </a>
 
 ### Brain tumor (Decathlon)
+
+<a target="_blank" href="https://colab.research.google.com/github/MatiasHolmemoMardal/FastMONAI/blob/main/notebooks/Braintumor_model.ipynb">
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+</a>
 In the brain tumor dataset we did not use the existing method DecathlonDataset() from FastMONAI for downloading the datasets due to not being aware of this method existing. Instead we accessed the dataset through Google Drive, giving us the chance to explore the content of the dataset, and decide how best to make a data frame for ourselves. It would definitely have been less time-consuming to use FastMONAI for this part of the project, but we got a good insight on how the dataset was constructed this way. 
 
 We used MedDataset from FastMONAI to give us a great overview of the size and shape of the images. We found that there was no need to resample or reorder the images. MedDataBlock() was a great help when making a dataloader. We used MONAI’s model UNet() to make a model. There was some difficulty with the spatial dimension of the UNet() model since it did not take any higher than 3 dimensions.
