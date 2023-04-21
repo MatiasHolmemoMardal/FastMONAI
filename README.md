@@ -49,9 +49,11 @@ The primary aim of this system is to improve the speed and accuracy of medical d
 ## Results / Notebooks
 
 ### Nodules (MedMNIST) 
+
 <a target="_blank" href="https://colab.research.google.com/github/MatiasHolmemoMardal/FastMONAI/blob/main/notebooks/V2_FastMONAI_MedMNIST_Single_label_classification.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
+
 ### Brain tumor (Decathlon)
 In the brain tumor dataset we did not use the existing method DecathlonDataset() from FastMONAI for downloading the datasets due to not being aware of this method existing. Instead we accessed the dataset through Google Drive, giving us the chance to explore the content of the dataset, and decide how best to make a data frame for ourselves. It would definitely have been less time-consuming to use FastMONAI for this part of the project, but we got a good insight on how the dataset was constructed this way. 
 
@@ -64,6 +66,7 @@ Using the lr_find() method we found that the optimal learning rate was somewhere
 We got a binary dice score of 0.9742, which seems too high even though the model made several correct predictions
 
 ### Heart (Decathlon)
+
 <a target="_blank" href="https://colab.research.google.com/github/MatiasHolmemoMardal/FastMONAI/blob/main/notebooks/heart_semantic.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
@@ -73,6 +76,7 @@ We used the DecathlonDataset() method from FastMONAI for downloading the dataset
 Got binary dice score of 0.9110 which we are happy with
 
 ### Colon (Decathlon)
+
 <a target="_blank" href="https://colab.research.google.com/github/MatiasHolmemoMardal/FastMONAI/blob/main/notebooks/colon_b_s_semantic.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
@@ -84,6 +88,7 @@ This model was made with the same structure as the heart-model, but did not perf
 ### Lung (Decathlon)
 
 ### Spleen (Decathlon) 
+
 <a target="_blank" href="https://colab.research.google.com/github/MatiasHolmemoMardal/FastMONAI/blob/main/notebooks/Spleen_semantic.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
@@ -109,8 +114,4 @@ By providing users with an intuitive and easy-to-use interface for running these
 
 To implement this further work, additional development would be required to integrate the deep learning models into the Gradio app and to ensure that the app is user-friendly and accessible to a wide range of users. Additionally, further testing and validation would be needed to ensure that the app is accurate and reliable for a variety of different MRI scans and clinical scenarios.
 
-@article{kaliyugarasan2022fastMONAI,
-  title={fastMONAI: a low-code deep learning library for medical image analysis},
-  author={Kaliyugarasan, Satheshkumar and Lundervold, Alexander Selvikv{\aa}g},
-  year={2022}
-}
+
