@@ -36,9 +36,6 @@ Consists of 10 datasets:
 10. RibFrac: A dataset of chest CT scans for rib fracture detection.
 
 
-## What is FastMONAI
-
-
 ## The goal
 The goal of the proposed idea is to develop an AI-powered system that can analyze MRI scans in real-time and automatically identify any tumors present. The system would then send this information to the doctor who is responsible for reviewing the scan, providing an objective and automated assessment of the scan before the doctor has had a chance to review it themselves.
 
@@ -88,8 +85,6 @@ Got binary dice score of 0.9110 which we are happy with
 We used the DecathlonDataset() method from FastMONAI for downloading the dataset. 
 
 This model was made with the same structure as the heart-model, but did not perform as expected. When training the pipeline we got “nan” on the dice score and tried to fix this several times and didn’t manage to fix this before there was no time left. This problem also occurred when working on the lung-model. We tried several times to fix this on this dataset and the lung-dataset with no luck. We tried to use Google and ChatGPT, but none of the suggestions we got helped us even with hours upon hours trying to fix the problem.
-
-### Lung (Decathlon)
 
 ### Spleen (Decathlon) 
 
