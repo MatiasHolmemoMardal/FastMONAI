@@ -91,7 +91,7 @@ This model was made with the same structure as the heart-model, but did not perf
 <a target="_blank" href="https://colab.research.google.com/github/MatiasHolmemoMardal/FastMONAI/blob/main/notebooks/Spleen_semantic.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
-In the spleen model we had the same problem as with the colon model
+In this notebook we had the same problem with the binary dice score being "nan". we checked that values in the label files was [0. 1.], checked that the model output values was between 0 and 1, verified the data to ensure  that the input data and ground truth masks do not contain any NaN values or other inconsistencies, tested the loss function with random tensors to ensure that the loss function itself is not causing NaN values and tried to monitor the model weights.
 
 ## What we could have done differently
 In hindsight, there are several aspects of our project that we could have approached differently to improve our outcomes. Firstly, we should have established stricter schedules and worked more evenly throughout the project. As a group, we were also writing our bachelor thesis at the same time, which took up a significant amount of our time and energy. This made it challenging to allocate enough time to the project and contributed to some delays in our progress.
