@@ -48,3 +48,22 @@ This model was made with the same structure as the heart-model, but did not perf
 
 ### Lung (Decathlon)
 
+## What we could have done differently
+In hindsight, there are several aspects of our project that we could have approached differently to improve our outcomes. Firstly, we should have established stricter schedules and worked more evenly throughout the project. As a group, we were also writing our bachelor thesis at the same time, which took up a significant amount of our time and energy. This made it challenging to allocate enough time to the project and contributed to some delays in our progress.
+
+Another area where we could have improved is in our initial choice of dataset. We started with the MedMNIST dataset, which presented some compatibility issues with FastMONAI, the deep learning library we were using for our project. As a result, we spent a considerable amount of time on trial and error, attempting to work with this dataset. Ultimately, we switched to the Medical Decathlon dataset, which was much more compatible with FastMONAI and allowed us to make faster progress. If we had started with the Medical Decathlon dataset from the outset, we could have saved a lot of time and completed the Gradio app.
+
+Additionally, we could have made better use of our teacher, who was the creator of the FastMONAI library. His expertise would have been invaluable in helping us troubleshoot issues and optimize our models more efficiently. By seeking his guidance more proactively, we might have been able to resolve the compatibility issues with the MedMNIST dataset more quickly or determine sooner that we should switch to the Medical Decathlon dataset.
+
+Speaking of the Gradio app, one significant mistake we made was starting its development too late. We should have started developing the app earlier in the project to ensure that it was completed by the end of our timeline. As it stands, we were unable to complete the app due to time constraints.
+
+Overall, if we had established stricter schedules, started with the Medical Decathlon dataset from the outset, consulted our teacher more frequently for assistance, and begun development of the Gradio app earlier in the project, we could have achieved more successful outcomes. This serves as a valuable lesson for future projects, emphasizing the importance of careful planning and execution to ensure the best possible results.
+
+
+## Further work
+
+One potential direction for future work is to implement the deep learning models developed in this project into a user-friendly web application using Gradio. The Gradio app could allow users to select a binary semantic segmentation model that represents the type of MRI scan (e.g., heart, brain, lung, etc.), and then upload an MRI scan to obtain an output image that marks the location of any tumors present.
+
+By providing users with an intuitive and easy-to-use interface for running these deep learning models, the Gradio app could help to facilitate the use of AI-powered medical imaging analysis by clinicians and researchers who may not have extensive experience with deep learning. This could ultimately help to improve the accuracy and speed of medical diagnoses, potentially leading to better patient outcomes.
+
+To implement this further work, additional development would be required to integrate the deep learning models into the Gradio app and to ensure that the app is user-friendly and accessible to a wide range of users. Additionally, further testing and validation would be needed to ensure that the app is accurate and reliable for a variety of different MRI scans and clinical scenarios.
