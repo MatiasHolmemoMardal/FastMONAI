@@ -54,7 +54,7 @@ Got binary dice score of 0.9110 which we are happy with
 
 ### Colon (Decathlon)
 <a target="_blank" href="https://colab.research.google.com/github/MatiasHolmemoMardal/FastMONAI/blob/main/notebooks/colon_b_s_semantic.ipynb">
-
+</a>
 We used the DecathlonDataset() method from FastMONAI for downloading the dataset. 
 
 This model was made with the same structure as the heart-model, but did not perform as expected. When training the pipeline we got “nan” on the dice score and tried to fix this several times and didn’t manage to fix this before there was no time left. This problem also occurred when working on the lung-model. We tried several times to fix this on this dataset and the lung-dataset with no luck. We tried to use Google and ChatGPT, but none of the suggestions we got helped us even with hours upon hours trying to fix the problem.
