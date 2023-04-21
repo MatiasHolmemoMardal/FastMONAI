@@ -14,3 +14,5 @@ The dataset is diverse and challenging, with variations in image quality, resolu
 The goal of the proposed idea is to develop an AI-powered system that can analyze MRI scans in real-time and automatically identify any tumors present. The system would then send this information to the doctor who is responsible for reviewing the scan, providing an objective and automated assessment of the scan before the doctor has had a chance to review it themselves.
 
 The primary aim of this system is to improve the speed and accuracy of medical diagnosis, potentially saving valuable time and identifying tumors or other abnormalities that may have been missed by human review alone. By providing doctors with an objective assessment of the MRI scans, the system could also help to reduce the risk of human error and ensure that patients receive prompt and accurate diagnoses.
+
+<a href=\"https://colab.research.google.com/github/MatiasHolmemoMardal/FastMONAI/blob/main/heart_semantic.ipynb\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>
