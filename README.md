@@ -1,6 +1,14 @@
 # FastMONAI Course Project - Group 4
 Sander Braastad, Tarald Skaar, Matias Holmemo Mardal
 
+This project uses fastMONAI, a low-code deep learning library for medical image analysis, developed by Satheshkumar Kaliyugarasan and Alexander Selvikvåg Lundervold. If you use this library in your research, please cite the following paper:
+
+@article{kaliyugarasan2022fastMONAI,
+  title={fastMONAI: a low-code deep learning library for medical image analysis},
+  author={Kaliyugarasan, Satheshkumar and Lundervold, Alexander Selvikv{\aa}g},
+  year={2022}
+}
+
 ## Context
 Deep learning has shown a lot of promise in the field of medical image analysis, and many researchers are exploring its potential in areas such as disease diagnosis and treatment planning. However, developing deep learning models for medical imaging can be challenging due to the complexity of the data and the need for accurate and reliable results.
 
